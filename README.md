@@ -1,1 +1,3 @@
 # Sentiment-Analysis-On-Incoming-Calls
+
+Our SIH project revolves around the sentiment analysis of incoming calls on helpdesk, divided into two key components: sentiment analysis and speech-to-text conversion. We've successfully developed a robust sentiment analysis model, which has undergone rigorous testing. Currently, we're making substantial progress on the speech-to-text conversion phase, aiming to seamlessly integrate both components to enhance helpdesk operations. Our team is dedicated to leveraging cutting-edge technology to improve customer service and looks forward to presenting our solution at SIH.
