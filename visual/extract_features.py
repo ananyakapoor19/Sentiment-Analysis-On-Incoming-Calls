@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 from c3d import C3D
 from i3d import I3D
-from dataset import SarcasmDataset
+from dataset import CallDataset
 
 # noinspection PyUnresolvedReferences
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
