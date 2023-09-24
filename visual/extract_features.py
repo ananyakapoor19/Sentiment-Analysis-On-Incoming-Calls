@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Script to extract ResNet features from video frames."""
+"""Script to extract ResNet features."""
 import argparse
 from typing import Any, Tuple
 
