@@ -7,11 +7,10 @@ import torch
 import torch.utils.data
 
 
-class SarcasmDataset(torch.utils.data.Dataset):
-    """Dataset of Sarcasm videos."""
+class CallDataset(torch.utils.data.Dataset):
     FRAMES_DIR_PATH = "../data/frames/utterances_final"
 
-    def __init__(self, transform: Callable = None, videos_data_path: str = "../data/sarcasm_data.json",
+    def __init__(self, transform: Callable = None, videos_data_path: str = "../data/call_data.json",
                  check_missing_videos: bool = True) -> None:
         self.transform = transform
 
