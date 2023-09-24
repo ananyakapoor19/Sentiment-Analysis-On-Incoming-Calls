@@ -5,7 +5,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-# Copied from https://github.com/piergiaj/pytorch-i3d/
 class MaxPool3dSamePadding(nn.MaxPool3d):
     def compute_pad(self, dim: int, s: int) -> int:
         if s % self.stride[dim] == 0:
